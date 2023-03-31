@@ -1,0 +1,100 @@
+/*{-webkit-box-sizing: border-box}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@700&display=swap');
+body{
+    background: #202a32;
+    font-family: Arial;
+}
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid #00baff;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+label{
+    color: #ebebeb;
+}
+
+
+input [type=""],[type="text"] ,[type="password"] {
+    width: 250px;
+    margin-bottom : 20px;
+     height: 60px;
+     
+     border: 1px solid #00baff;
+     border-radius: 10px;
+     outline: none;
+}
+
+p{
+    color: #fff7f7;
+}
+
+input [type=""], [type="checkbox"] :after {
+    color: #ff1e1e;
+    line-height: 1;
+    position: absolute;
+    
+   
+}
+input [type=""],[type="submit"]  {
+    width: 100px;
+     height: 60px;
+     border: 1px solid #00baff;
+     border-radius: 10px;
+     color: #00baff;
+     font-size: 20px;
+     outline: none;
+     transition: all 0.5s;
+}
+input [type=""],[type="submit"]:hover  {
+    width: 100px;
+     height: 60px;
+     border: 1px solid #020303;
+     background: #000000;
+     border-radius: 10px;
+     color: #ffffff;
+     font-size: 30px;
+     outline: none;
+     transition: all 0.5s;
+}
+a{
+    
+    text-decoration: none;
+    width: 15px;
+    height: 30px;
+    margin-right: 82%;
+    
+    border-radius: 12px;
+    color: #ebebeb;
+    font-size: 30px;
+   
+   
+   
+}
+.gg{
+    height: 40px;
+    border: 1px solid #00baff;
+    font-size: 15px;
+    color: #00baff;
+    background: #00baffz;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.gg:hover {
+    height: 40px;
+    border: 1px solid #00baff;
+    padding: 15px;
+    font-size: 15px;
+    color: #ebebeb;
+    background: #00090c;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
